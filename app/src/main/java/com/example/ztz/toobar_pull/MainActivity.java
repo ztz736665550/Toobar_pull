@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                     head_search_rr.setBackgroundColor(Color.argb((int) alpha, 255, 255, 255));
                 } else {
                     //将标题栏的颜色设置为完全不透明状态
-
                     head_search_rr.setBackgroundResource(R.color.white);
                 }
             }
