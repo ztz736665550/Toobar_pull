@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 mDistanceY += dy;
                 //toolbar的高度
                 int toolbarHeight = head_search_rr.getBottom();
-
                 //当滑动的距离 <= toolbar高度的时候，改变Toolbar背景色的透明度，达到渐变的效果
                 if (mDistanceY <= toolbarHeight) {
                     float scale = (float) mDistanceY / toolbarHeight;
